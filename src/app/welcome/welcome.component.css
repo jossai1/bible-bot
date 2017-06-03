@@ -1,0 +1,38 @@
+* {
+  text-align: center;
+
+}
+
+h1 {
+  font-family: lato;
+  color: lightslategrey;
+}
+
+p {
+    color: lightslategrey;
+    font-weight: 300;
+}
+#bot-pic {
+  border-radius: 38%;
+  width: 230px;
+  height: 310px;
+  margin-top: 12%;
+  /*border: 1px solid #B5A4A4;*/
+}
+
+div.container {
+    /*margin: 0;*/
+    background-color: #fedcd2;
+    font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+    width: 100%;
+    height: 800px;
+}
+
+
+a {
+  /*background-color: rgb(135, 82, 72);*/
+  background-color:#df744a;
+  font-family: lato;
+  color: white;
+  font-size: larger;
+}

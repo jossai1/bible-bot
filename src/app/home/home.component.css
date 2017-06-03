@@ -1,0 +1,88 @@
+header, footer {
+    padding: 2em;
+    color: white;
+    /*background-color: #ffdcdb;*/
+    background-color: #fedcd2;
+    clear: left;
+    text-align: center;
+}
+
+div.traced-sign {
+    /*width: 780px;*/
+   /* height: 230px;
+    margin-top: 2%;
+    text-align: center;
+    background-color: blue;*/
+    border-radius: 53px;
+    border-style: dashed;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;   /*centers vertically*/
+}
+
+#search {
+  border-radius: 11px;
+  height: 31px;
+  width: 280px;
+  border: none;
+  font-family: lato;
+  font-size: 16px;
+  outline: none;
+}
+
+input[text] {
+  color: #888;
+  font-family: lato, sans-serif;
+}
+
+.grey-out {
+  opacity: 0.3;
+}
+
+.list {
+    /*display: inline-flex;*/
+    /*list-style-type: none;*/
+    margin: 1%;
+    padding: 0;
+    /*display: inline-flex;*/
+    flex-direction: column;
+   /*width: 17%;*/
+   margin-top: 2%;
+    /*display: flex;*/
+    /*align-items: center;*/
+    justify-content: space-around;
+
+}
+
+.list a {
+  color: white;
+  margin:1%;
+  font-family: lato;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  background-color: #df744a;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+#bot-pic {
+  border-radius: 38%;
+  width: 100px;
+  height: 120px;
+  margin-bottom: 3%;
+  /*margin-top: -3%;*/
+  /*border: 1px solid #B5A4A4;*/
+}
+p.middle-text {
+    width: 780px;
+    height: 230px;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 41px;
+    text-decoration: none;
+}

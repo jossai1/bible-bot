@@ -1,0 +1,29 @@
+<div class="example-container">
+  <div class="button-row">
+    <button style="background-color: #dcb239;" md-mini-fab (click)="goBack()"><md-icon>arrow_back</md-icon></button>
+  </div>
+
+  <h1>{{title}}</h1>
+
+  <!-- show loading sign until verses have been gotten from api   -->
+  <div *ngIf="loadedVerses.length === 0" class="loader"></div>
+
+  <md-card class="verse-card" *ngFor="let verseObject of loadedVerses;let i = index">
+
+
+    <h4 *ngIf="verseObject.verseText.length > 0" >
+    {{verseObject.verseDetails[i]}}
+    </h4>
+
+
+  <div >
+
+    <div  *ngFor="let v of verseObject.verseText">
+
+      <p class="v-text">  <span class="v-number"> {{v.verse }}  </span>{{v.text}}</p>
+
+    </div>
+
+  </div>
+</md-card>
+  <!-- <button type="button" name="button" (click)="dis()">ddd</button> -->

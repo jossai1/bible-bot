@@ -1,0 +1,52 @@
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+h1{
+  text-align: center;
+  font-family: lato;
+  font-weight: 600;
+  color: slategray;
+}
+
+h4{
+  font-weight: bolder;
+  font-family: lato;
+}
+
+.verse-card {
+      margin-bottom: 8%;
+      /*background-color: #8fd8d2;*/
+      color: lightslategrey;
+      background-color: #fedcd2;
+
+}
+.v-text {
+  font-weight: 300;
+  font-family: lato;
+}
+
+.v-number {
+  font-weight: bolder;
+  font-family: lato;
+  font-size: smaller;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.example-container {
+  width: 500px;
+}
