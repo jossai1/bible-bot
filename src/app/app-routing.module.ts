@@ -9,9 +9,10 @@ import { VerseDisplayComponent } from './verse-display/verse-display.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/welcome', pathMatch: 'full' },
-  { path: 'home',  component: HomeComponent },
   { path: 'welcome',  component: WelcomeComponent },
-  { path: 'verse-display',  component: VerseDisplayComponent }
+  { path: 'home',  component: HomeComponent },
+  { path: 'verse-display',  component: VerseDisplayComponent },
+  { path: '**',  component: HomeComponent}
 ];
 
 @NgModule({
