@@ -23,7 +23,7 @@ export class BibleAPIService {
 
   fetchVerse (verse: string): Promise<any> {
     console.log('getting bible stuff');
-    let url ='http://labs.bible.org/api/?passage='+verse+'&type=json&callback=JSONP_CALLBACK';
+    let url ='https://labs.bible.org/api/?passage='+verse+'&type=json&callback=JSONP_CALLBACK';
     console.log(url);
     return  this.jsonp.get(url)
                  .toPromise()
